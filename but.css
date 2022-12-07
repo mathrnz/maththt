@@ -1,0 +1,349 @@
+@font-face {
+font-family: 'Titillium Regular';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Regular'), url('Titillium-Regular.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Regular Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Regular Italic'), url('Titillium-RegularItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Regular Upright';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Regular Upright'), url('Titillium-RegularUpright.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Thin';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Thin'), url('Titillium-Thin.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Thin Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Thin Italic'), url('Titillium-ThinItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Thin Upright';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Thin Upright'), url('Titillium-ThinUpright.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Light';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Light'), url('Titillium-Light.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Light Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Light Italic'), url('Titillium-LightItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Light Upright';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Light Upright'), url('Titillium-LightUpright.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Semibold';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Semibold'), url('Titillium-Semibold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Semibold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Semibold Italic'), url('Titillium-SemiboldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Semibold Upright';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Semibold Upright'), url('Titillium-SemiboldUpright.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Bold';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Bold'), url('Titillium-Bold.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Bold Italic';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Bold Italic'), url('Titillium-BoldItalic.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium Bold Upright';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium Bold Upright'), url('Titillium-BoldUpright.woff') format('woff');
+}
+
+
+@font-face {
+font-family: 'Titillium';
+font-style: normal;
+font-weight: normal;
+src: local('Titillium'), url('Titillium-Black.woff') format('woff');
+}
+
+.topnav {
+  background: #007A87;
+  overflow : hidden;
+  text-align : center;
+}
+
+body {
+color : white;
+background : url(bg2.png) #2B2C38;
+background-size : 40%;
+background-attachment : fixed;
+
+font-family : 'Titillium Regular';
+}
+
+a {
+	color : white;
+	text-decoration : none;
+	
+}
+
+a:hover {
+	color : white;
+}
+
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  font-family : 'Titillium Thin';
+	-webkit-transition: background-color .5s,;
+   -moz-transition: background-color .5s,;
+     -o-transition: background-color .5s,;
+        transition: background-color .5s;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+	/* font-size : 24px; */
+  /* background-color: #ddd; */
+  background-color: #00C0B5;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #00C0B5;
+  color: white;
+}
+
+/* .jumbotron { */
+/* background-image : url(logo2.png); */
+ /* margin-bottom: 0px; */
+ /* height: 300px; */
+ /* background-color: red !important; */
+  /* text-align : center; */
+/* } */
+
+
+
+#presente {
+	text-align : center;
+	margin-right : 130px;
+	
+	font-size : 130%;
+	font-family: 'Titillium Thin';
+}
+
+#nouveau {
+	text-align : center;
+	font-size  : 400%;
+	font-family: 'Titillium Semibold';
+	margin-left : 230px;
+
+}
+#pre {
+	/* background : url(binaire1.jpeg) 10% no-repeat scroll; */
+	background :#00C0B5 ;
+	border-bottom-left-radius :  250px;
+	margin-bottom : 50px;
+	}
+
+#pre img {
+	height : 70px;
+	float:right;
+	margin-right : 60px;
+	margin-top : -20px;
+	-webkit-transition:width .5s, height .5s;
+    -moz-transition:width .5s, height .5s;
+    -o-transition: width .5s, height .5s;
+	transition:width .5s, height .5s;
+}
+
+#pre img:hover {
+	height : 80px;
+}
+
+#un {
+	border-radius: 25px;
+	background:#d18108;
+	padding: 20px;
+	margin-left : 160px;
+	margin-bottom : 50px;
+	width: 300px;
+	height: 200px;
+	font-family : 'Titillium Semibold';
+	text-align : center;
+	font-size : 30px;
+	/* overflow : hidden; */
+	float : left;
+	-webkit-transition:font-size .5s ;
+    -moz-transition: font-size .5s;
+    -o-transition: font-size .5s;
+	transition:font-size .5s;
+}
+
+#un #preiut{
+	font-family : 'Titillium Thin';
+	font-size : 20px;
+	padding : 20px;
+	-webkit-transition:font-size .5s;
+    -moz-transition: font-size .5s;
+    -o-transition: font-size .5s;
+	transition:font-size .5s;
+}
+
+#un:hover{
+	/* width : 400px; */
+	/* height :  266px; */
+	font-size : 34px;
+}
+
+#un:hover>#preiut{
+	font-size : 23px;
+}
+
+#image1 {
+	border-radius: 25px;
+	background:url(iut.jpg) ;
+	background-size : 100%;
+	padding: 20px;
+	margin-right : 160px;
+	margin-bottom:50px;
+	width: 530px;
+	height: 200px;
+	font-size : 30PX;
+	float : right;
+	-webkit-transition:font-size .5s width .5s, height .5s;
+    -moz-transition: font-size .5s, width .5s, height .5s;
+    -o-transition: font-size .5s, width .5s, height .5s;
+	transition:font-size .5s, width .5s, height .5s;
+}
+
+#image1:hover {
+	width : 630px;
+	height : 266px;
+}
+
+#image2 {
+	
+	border-radius: 25px;
+	background:url(comps.jpg) 10px;
+	background-size : 100%;
+	padding: 20px;
+	/* margin-top : 86px; */
+	margin-left : 160px;
+	margin-bottom:50px;
+	width: 480px;
+	height: 250px;
+	float : left;
+	-webkit-transition:font-size .5s width .5s, height .5s;
+    -moz-transition: font-size .5s, width .5s, height .5s;
+    -o-transition: font-size .5s, width .5s, height .5s;
+	transition:font-size .5s, width .5s, height .5s;
+}
+
+#image2:hover {
+	width : 600px;
+	height : 333.33px;
+}
+
+#deux {
+	border-radius: 25px;
+	background:#4e0470;
+	padding: 20px;
+	margin-right : 160px;
+	/* margin-bottom : 50px; */
+	width: 330px;
+	height: 250px;
+	font-family : 'Titillium Semibold';
+	text-align : center;
+	font-size : 25px;
+	/* overflow : hidden; */
+	float : right;
+	-webkit-transition:font-size .5s;
+    -moz-transition: font-size .5s;
+    -o-transition: font-size .5s;
+	transition:font-size .5s;
+}
+
+
+#deux:hover{
+	font-size : 28px;
+}
+
+#deux #comp{
+	font-family : 'Titillium Thin';
+	font-size : 18px;
+	padding : 20px;
+	-webkit-transition:font-size .5s;
+    -moz-transition: font-size .5s;
+    -o-transition: font-size .5s;
+	transition:font-size .5s;
+}
+
+
+#deux:hover>#comp{
+	font-size : 21px;
+}
